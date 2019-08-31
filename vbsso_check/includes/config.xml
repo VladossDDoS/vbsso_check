@@ -1,0 +1,8 @@
+<configuration xmlns="http://logging.apache.org/log4php/">
+    <appender name="myAppender" class="LoggerAppenderFile">
+        <param name="file" value="wp-content/plugins/vbsso_check/logs/test.log" />
+    </appender>
+    <root>
+        <appender_ref ref="myAppender" />
+    </root>
+</configuration>
